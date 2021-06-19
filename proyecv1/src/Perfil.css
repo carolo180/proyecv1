@@ -1,0 +1,189 @@
+#home{
+    min-width: 627px;
+    max-width: 627px;
+    min-height:550px;
+    max-height: 550px;
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    flex-direction: row;
+    background-color: violet;
+    position: absolute;
+    margin-top: 265px;
+    
+}
+
+.primer{
+    background-color:#C6C2CC;
+    width: 50%;
+    flex-direction: column;
+    min-height:550px;
+    max-height: 550px;
+}
+.primer h4{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    
+    
+}
+.primer p{
+    padding: 10px;
+    text-align: justify;
+    font-size:1rem;
+    
+}
+.iconos{
+    margin-top:10px;
+}
+.gur{
+    background-color: white;
+    width: 33px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.segundo{
+    background-color: whitesmoke;
+    width: 50%;
+    
+}
+.l{
+    width:100px;
+    margin-left: 30px;
+ }
+.g{
+    width: 70px;
+    margin-left: 60px;
+}
+.insta{
+    margin-top: 5px;
+    margin-left: 110px;
+    
+ }
+ .insta i{
+     margin: 10px;
+ }
+ .segundo h4{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+ }
+ .barras{
+     margin-left: 20px;
+     
+ }
+ .barr1{
+     margin-left: 20px;
+ }
+
+ .barr2{
+    margin-left: 23px;
+ } 
+ .barr3{
+    margin-left: 33px;
+ } 
+ .barr4{
+    margin-left: 31px;
+ } 
+ .barr5{
+    margin-left: 35px;
+ } 
+ .info{
+     margin-top: 5px;
+ }
+ progress[value] {
+    width: 70%;
+    height: 10px;
+    appearance: none;
+    color:rgb(127, 97, 131);
+    
+    
+    }
+    
+progress::-moz-progress-bar { background:#0BAFE3; }
+progress::-webkit-progress-value { background:#4E2297; }
+
+.lengua{
+    margin: 10px;
+    display: flex;
+    margin-left: 20px;
+}
+.lengua h3{
+    width: 30%;
+    font-weight: 900;
+    font-size: 1rem;
+}
+.lengua p{
+    width: 70%;
+    
+}
+.button2{
+    float: right;
+    min-width: 28px;
+    min-height: 310px;
+    border: 2px solid black;
+    margin-top: 50px;
+    border-bottom-right-radius: 15px;
+    position: absolute;    
+    
+}
+
+.button2:hover{
+    background-color: rgb(209, 160, 216);
+    cursor: pointer;
+    transition: 0.3s;
+ }
+
+.boton2{
+    text-orientation: mixed;
+    writing-mode: vertical-rl;
+    font-weight:bolder;
+    padding-bottom: 8px;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.boton2:hover{
+    color:#010c0f;
+    font-size: 1.3rem;
+}
+
+footer{
+    background-color: black;
+    margin-top: 760px;
+    position: absolute;
+    min-width: 627px;
+    min-height: 100px;
+    color: rgb(234, 226, 235);
+    
+}
+#pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer i{
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+   
+   
+}
+footer h4{
+    margin-top: 10px;
+    padding-left: 5px;
+    color:rgb(209, 160, 216);
+    max-height: 20px;
+    text-align: center;
+    
+}
+footer p{
+    font-size: 0.8rem;
+    
+  }
+.fotog{
+    margin-top: 20px;
+    width: 13%;
+} 
+   

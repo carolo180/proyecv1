@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+  box-sizing: border-box;
+}
+
+body{
+ display: flex;
+ flex-direction: column;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  background-color:rgb(2, 88, 88);
+  
+}
+#root{
+	
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	margin: 20px 30px;
+}
+@media screen and (min-width: 700px) {
+    #root{
+	   margin-right: 600px;
+       flex-direction: row;
+	   justify-content: center;
+    }
+    
+}
+
+
+

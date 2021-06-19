@@ -1,0 +1,116 @@
+
+
+header{
+    background-image: url("./Subtract.png");
+    min-width: 630px;
+    min-height:312px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    position: absolute;  
+    z-index: 1;
+    font-size: 1.2rem;
+  }
+
+.foto{
+    display: flex;
+}
+
+.pic{
+    width: 265px;
+ }
+
+.parra{
+    margin-top: 10px;
+    margin-left: 38px;
+    min-width: 250px;
+    font-family: 'Roboto', sans-serif;
+    max-height: 250px;
+   
+}
+
+.foto h1{
+    color: rgb(209, 160, 216);
+    margin:5px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.foto h4{
+    color: white;
+    padding-bottom: 25px;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parra li{
+    color: white;
+    list-style: none;
+    font-size: 0.7rem;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.parra li p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+}
+.parra li i{
+    margin-right:10px;
+}
+
+.button{
+    float: right;
+    min-width: 27px;
+    min-height: 310px;
+    margin-left: 75px;
+    border: 2px solid black;
+    border-bottom-right-radius: 15px;
+    background-color:#ffffff;
+    margin-right: 25px;
+          
+}
+.button:hover{
+    background-color: rgb(209, 160, 216);
+    transition: 0.5s;
+}
+.boton{
+    text-orientation: mixed;
+    writing-mode: vertical-rl;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    text-decoration: none;
+ }
+
+.boton:hover{
+    color: #3c0053;
+    font-size: 1.3rem;
+ }
+.active1{
+    background-color: rgb(209, 160, 216);
+    color: rgb(41, 37, 37);
+    text-decoration: none;
+    border: 4px solid black;
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width: 1500px) {
+    header{
+        flex-direction: row;
+        background-repeat: no-repeat;
+    }
+    
+}
+@media screen and (min-width: 1500px) {
+    .foto{
+      
+       flex-direction: row;
+    }
+    
+}
+
+
